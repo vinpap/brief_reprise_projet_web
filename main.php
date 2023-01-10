@@ -24,6 +24,9 @@
     } elseif (str_contains($actual_link, 'avis')) {
         include 'front/avis.php';
         ?><style type="text/css"> .b_avis button{ background-color: #D7B377; color: #2B4162} </style><?php
+    } elseif (str_contains($actual_link, 'contact')) {
+        include 'front/contact.php';
+        ?><style type="text/css"> .b_contact button{ background-color: #D7B377; color: #2B4162} </style><?php
     } else {
         include 'front/accueil.php';
         ?><style type="text/css"> .b_accueil button{ background-color: #D7B377; color: #2B4162} </style><?php
