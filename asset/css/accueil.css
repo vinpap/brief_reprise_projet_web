@@ -1,0 +1,16 @@
+.container-accueil {
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.container_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.container_card div{
+    background-color: #2B4162;
+    color: #D7B377;
+    border: solid 1px #D7B377;
+}
