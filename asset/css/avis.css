@@ -1,0 +1,59 @@
+.container_avis {
+    background-color: #2B4162;
+    
+    height: 50vh;
+}
+
+.container_flex {
+    display: flex;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.container_avis h3{
+    padding-top: 2rem;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-family: Comfortaa-VariableFont_wght, sans-serif;
+}
+
+.vertical_bar {
+    height: 100%;
+    width: 5px;
+    background-color: #D7B377;
+}
+
+.formulaire {
+    width: 50vw;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    align-content: space-around;
+}
+
+.container_texte {
+    width: 50%;
+    margin: 3rem;
+    margin-top: 0;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.container_texte div {
+    height: 3.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    text-overflow: '...';
+}
+
+.formulaire .button {
+    width: 100%;
+    display: grid;
+    justify-content: end;
+}
+
+#message {
+    height: 150%;
+}

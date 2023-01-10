@@ -17,5 +17,7 @@
     <?php include 'front/header.php';?>
     </header>
     <?php include 'front/station.php';?>
+    <?php include 'front/avis.php';?>
+
 </body>
 </html>
