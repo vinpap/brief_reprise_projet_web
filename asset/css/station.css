@@ -19,6 +19,7 @@
 
 .info h3 {
     color: #2B4162;
+    text-shadow: #ffffff 1px 0 10px,#ffffff 1px 0 10px,#ffffff 1px 0 10px,#ffffff 1px 0 10px;
     font-family: Comfortaa-VariableFont_wght, sans-serif;
 }
 
