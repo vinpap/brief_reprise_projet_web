@@ -16,8 +16,16 @@
     <header>
     <?php include 'front/header.php';?>
     </header>
-    <?php include 'front/station.php';?>
-    <?php include 'front/avis.php';?>
+    <?php
+    $actual_link = "$_SERVER[REQUEST_URI]";
+    if (str_contains($actual_link, 'station')){
+        include 'front/station.php';
+    } elseif (str_contains($actual_link, 'avis')) {
+        include 'front/avis.php';
+    }
+    ?>
+
+
 
 </body>
 </html>
