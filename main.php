@@ -12,8 +12,9 @@
 </head>
 <body>
     <header>
-    <?php include 'front\header.php';?>
+    <?php include 'front/header.php';?>
     </header>
-    <?php include 'front\station.php';?>
+    <?php include 'front/station.php';?>
+    <?php include 'front/avis.php';?>
 </body>
 </html>
