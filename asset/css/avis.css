@@ -72,7 +72,7 @@
 }
 
 #message {
-    height: 150%;
+    height: 30vh;
 }
 
 .vertical_bar {
@@ -85,4 +85,8 @@
     height: 5px;
     width: 100%;
     background-color: #D7B377;
+}
+
+.pseudo_text {
+    color: #D7B377;
 }
