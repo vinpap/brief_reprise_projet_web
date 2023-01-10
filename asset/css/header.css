@@ -1,0 +1,31 @@
+.container_header {
+    background-color: #2B4162;
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav {
+    margin: auto;
+    margin-right: 0;
+}
+
+.en_cours button {
+    background-color: #D7B377;
+    color: #385F71;
+}
+
+.logo {
+    height: 7vh;
+    margin: auto;
+
+}
+
+button{
+    background-color: rgba(137, 43, 226, 0);
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: none;
+}
