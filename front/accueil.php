@@ -7,28 +7,31 @@
     <div class="container_card">
         <div>
             <div>
-            <p>Laurence</p>
-            <div><img src="/asset/images/parisienne.jpg" alt=""></div>
+                <h6>Laurence</h6>
+                <div><img src="/asset/images/parisienne.jpg" alt=""></div>
+                <p>Dev Front End</p>
             </div>
         </div>
         <div>
             <div>
-            <p>Kewser</p>
-            <div><img src="/asset/images/ouighour.jpg" alt=""></div>
+                <h6>Kewser</h6>
+                <div><img src="/asset/images/ouighour.jpg" alt=""></div>
+                <p>Dev Back End</p>
 
             </div>
         </div>
         <div>
             <div>
-            <p>Vincent</p>
-            <div ><img src="/asset/images/prof.jpg" alt=""></div>
-
+                <h6>Vincent</h6>
+                <div><img src="/asset/images/prof.jpg" alt=""></div>
+                <p>Dev Back End</p>
             </div>
         </div>
         <div>
             <div>
-            <p>Joao</p>
-            <div ><img src="/asset/images/kratos.jpg" alt=""></div>
+                <h6>Joao</h6>
+                <div><img src="/asset/images/kratos.jpg" alt=""></div>
+                <p>Dev Front End</p>
             </div>
         </div>
     </div>
