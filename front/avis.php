@@ -23,7 +23,8 @@
 
     <div class = "container_texte">
         <?php
-        require('back/recup.php');?>
+        require('back/recup.php');
+        ?>
         
     </div>
     </div>
