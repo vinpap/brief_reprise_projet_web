@@ -5,6 +5,7 @@
 }
 
 .container_card{
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;

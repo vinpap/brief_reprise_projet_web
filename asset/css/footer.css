@@ -1,0 +1,11 @@
+.container_footer {
+    background-color: #D7B377;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+
+.FB {
+    height: 80%;
+
+}
