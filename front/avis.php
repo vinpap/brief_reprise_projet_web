@@ -6,7 +6,7 @@
     <div class="horizontal_bar"></div>
 
         <div class = "container_flex">
-        <form class="formulaire" method="post">
+        <form class="formulaire" method="post" action='back/verif.php'>
             <div>
                 <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo">
             </div>
