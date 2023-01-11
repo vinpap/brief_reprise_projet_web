@@ -33,6 +33,9 @@
 
     }
     ?>
+     <footer>
+    <?php include 'front/footer.php';?>
+</footer>
 
 
 
