@@ -5,9 +5,9 @@
     <img class = "logo" src="/asset/images/logo.png" alt="">
     
     <div class = "nav">
-        <a class = "en_cours" href="/main.php" ><button>Accueil</button></a>
-        <a href="?station"><button>Stations</button></a>
-        <a href="?avis"><button>Avis</button></a>
-        <a href="?contact"><button>Contact</button></a>
+        <a class="b_accueil" href="main.php" ><button>Accueil</button></a>
+        <a class="b_station" href="?station"><button>Stations</button></a>
+        <a class="b_avis" href="?avis"><button>Avis</button></a>
+        <a class="b_contact" href="?contact"><button>Contact</button></a>
     </div>
 </div>
