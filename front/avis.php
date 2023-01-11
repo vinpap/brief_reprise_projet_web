@@ -22,6 +22,8 @@
     </div>
 
     <div class = "container_texte">
+        <?php
+        require('back/recup.php');?>
         <div class = "text">
             <span class="pseudo_text">Pseudo </span>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate felis augue, vitae ultrices odio mollis vitae. Aliquam ut metus eu sapien varius congue. Vivamus pretium massa eget felis ornare, imperdiet rutrum enim scelerisque. Etiam eget sem eu orci rutrum venenatis. Quisque elementum, metus vel tincidunt tempor, velit enim ultrices dolor, eu varius ante ligula non metus. Proin tempor nisi id sem condimentum laoreet eu gravida sem.
