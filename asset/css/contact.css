@@ -9,12 +9,34 @@
 }
 
 .formulaire_bleu {
+    height: 40vh;
     display: grid;
     justify-content: center;
     background-color: #385F71;
     border-radius: 30px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-family: Rounded_Elegance, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
+#msg {
+    height: 10vh;
+    width: 50vh;
+}
+
+#name {
+    height: 4vh;
+    width: 20vh;
+}
+
+.formulaire2 {
+    height: 100%;
+    display: grid;
+    gap: 2rem;
+}
+
+.noms {
+    display: flex;
+}
