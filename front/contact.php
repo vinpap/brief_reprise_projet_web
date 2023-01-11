@@ -8,21 +8,19 @@
     
     <div class = "formulaire_bleu">
         <form class = "formulaire2">
+            <div class = "noms">
             <div>
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="user_name">
+                <input type="text" id="name" name="last_name" placeholder="Nom">
             </div>
             <div>
-                <label for="mail">Prénom :</label>
-                <input type="email" id="mail" name="user_mail">
+                <input type="text" id="name" name="first_name" placeholder="Prénom">
+            </div>
             </div>
             <div>
-                <label for="mail">Mail :</label>
-                <input type="email" id="mail" name="user_mail">
+                <input type="text" id="name" name="user_name" placeholder="Mail">
             </div>
             <div>
-                <label for="msg">Message :</label>
-                <textarea id="msg" name="user_message"></textarea>
+                <textarea id="msg" name="user_message" placeholder="Écrivez votre message ici ..."></textarea>
             </div>
         </form>
 
