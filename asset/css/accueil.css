@@ -1,7 +1,8 @@
 .container-accueil {
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     text-align: center;
+    overflow: scroll;
 }
 
 .container_card{

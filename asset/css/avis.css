@@ -1,6 +1,6 @@
 .container_avis {
     background-color: #2B4162;
-    height: 79.5vh;
+    height: 69.5vh;
 }
 
 .container_flex {
@@ -61,7 +61,7 @@
     overflow: auto;
     text-overflow: ellipsis;
     margin-bottom: -10rem;
-    background-color: #ffffff;
+    background-color: #F5F0F6;
     z-index: 2;
     color: #2B4162;
 }
