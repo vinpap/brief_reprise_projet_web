@@ -5,7 +5,11 @@ $req->execute();
 $datas= $req->fetchAll();
 
 foreach($datas as $data){
-    echo '<p>Pseudo: '.$data['pseudo'].'</p>';
-    echo '<p>Message: '.$data['message'].'</p>';
-    echo '<p>Heure: '.$data['heure'].'</p><br>';
+?>
+<div class = "text"><span class="pseudo_text"> <?php echo $data['pseudo']; ?> </span>
+<?php echo $data['message']; ?> 
+</div>
+
+    <?php
 }
+?>
