@@ -6,7 +6,9 @@ $datas= $req->fetchAll();
 
 foreach($datas as $data){
 ?>
-    <div class = "text"><span class="pseudo_text"> <?php $data['pseudo'] ?></span>
+<div class = "text"><span class="pseudo_text"> <?php echo $data['pseudo']; ?> </span>
+<?php echo $data['message']; ?> 
+</div>
 
     <?php
 }
